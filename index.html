@@ -3,9 +3,137 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <title>Ahmed Alaa Fathy</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header>
+      <nav class="flex space-between animate__animated animate__fadeIn">
+        <ul class="flex space-between align links">
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Projects</a>
+          </li>
+          <li>
+            <a href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="flex space-between align icons">
+          <li>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-github-square"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="flex space-between about-section">
+        <div
+          class="
+            flex
+            center
+            img-container
+            animate__animated animate__backInLeft
+          "
+        >
+          <img src="img/IMG_7666.jpg" alt="personal img of Ahmed Alaa Fathy" />
+        </div>
+        <div class="about wow animate__animated animate__backInRight">
+          <p>Hi there! I'm</p>
+          <h1>Ahmed Alaa</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+            voluptate officiis rerum perferendis assumenda neque, sunt
+            voluptates quod expedita inventore alias eius! Vel iure eos quod
+            nihil! Dicta, autem voluptatibus?
+          </p>
+        </div>
+      </section>
+      <div class="hero-img-wrapper animate__animated animate__flipInX">
+        <img src="img/hero.svg" alt="img" />
+      </div>
+      <section class="dark objective">
+        <h2>Hi, I'm Ahmed Alaa. Nice to meet you.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde,
+          eveniet! Voluptates praesentium, rerum illo eaque saepe quis nihil,
+          facere aperiam suscipit quam architecto ullam recusandae sint quae
+          unde enim mollitia!
+        </p>
+      </section>
+      <section class="projects">
+        <h2>MY RECENT PROJECTS</h2>
+
+        <div class="projects-wrapper flex space-between">
+          <div class="project">
+            <img src="img/Screenshot.png" alt="project Screenshot" />
+            <div
+              class="info animate__animated animate__fadeIn animate__animated"
+            >
+              <h3>Shefae</h3>
+              <a href=""><i class="fas fa-globe-europe"></i></a>
+              <a href=""><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/Screenshot (146).png" alt="project Screenshot" />
+            <div
+              class="info animate__animated animate__fadeIn animate__animated"
+            >
+              <h3>Rockstar Games</h3>
+              <a href=""><i class="fas fa-globe-europe"></i></a>
+              <a href=""><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/Screenshot (147).png" alt="project Screenshot" />
+            <div
+              class="info animate__animated animate__fadeIn animate__animated"
+            >
+              <h3>Furniture Shop</h3>
+              <a href=""><i class="fas fa-globe-europe"></i></a>
+              <a href=""><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="contact">
+        <form action="”mailto:Ahmed.alaa.fathy.96@gmail.com”">
+          <input type="mail">
+        </form>
+      </section> -->
+    </main>
+    <footer class="dark">
+      <p>&copy; Ahmed Alaa Fathy 2021</p>
+    </footer>
   </body>
 </html>
